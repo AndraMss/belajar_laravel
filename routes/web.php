@@ -41,5 +41,3 @@ Route::post('/biodata', [testController::class, 'store'])->name('data.store');
 Route::delete('/biodata/{id}', [testController::class, 'destroy'])->name('data.destroy');
 
 Route::get('/home', [navbarController::class, 'index']);
-
-// deed jawa
